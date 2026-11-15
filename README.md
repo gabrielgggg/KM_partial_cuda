@@ -19,7 +19,9 @@ paper's exhibits on the paper grid and on a 2000 x 121 grid.
 | 1000 x 121 | not timed | 3.13 s (GPU, fp32); 5.46 s (CPU, fp64) | |
 | 2000 x 121 | not timed | 5.57 s (GPU, fp32); 16.9 s (CPU, fp64) | |
 
-The full table by stage is Table 3 of the report.
+The full table by stage is Table 3 of the report:
+
+![Table 3: run time by stage and speedup over the paper's code](docs/table3_runtimes.png)
 
 ## Build
 
