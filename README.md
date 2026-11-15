@@ -1,4 +1,4 @@
-# KM_partial_cuda
+# Partial-Default-Replication-CUDA
 
 A performance-oriented C++/CUDA rewrite of the main computation of the quantitative diffusion model of partial
 default (main calibration): the equilibrium (HJB and bond-price equations by implicit upwind pseudo-time stepping),
