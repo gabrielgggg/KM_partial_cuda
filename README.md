@@ -2,6 +2,8 @@
 
 > **Note:** This is an experimental, automated port written by Grok Bot. It aims at performance and at experimenting with GPU solutions in single and double precision.
 
+The official replication package, which this port is based on, is at [gabrielgggg/Partial-Default-Replication](https://github.com/gabrielgggg/Partial-Default-Replication).
+
 A performance-oriented C++/CUDA rewrite of the main computation of the quantitative diffusion model of partial
 default (main calibration): the equilibrium (HJB and bond-price equations by implicit upwind pseudo-time stepping),
 the ergodic distribution, the moments of Table 2 (ergodic moments and 16 simulated paths of 25,000 years), and the
