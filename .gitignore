@@ -1,0 +1,25 @@
+# build outputs
+bin/
+*.o
+__pycache__/
+# LaTeX intermediates
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+# the replication package (external) and scratch
+ref/
+xfer/
+quickfigs/
+*.log
+# large outputs: keep meta.json of every run, full arrays only for the paper grid and d2000_cpu64
+results/**/*.npy
+!results/p_*/*.npy
+!results/d2000_cpu64/*.npy
+inputs/init_*.bin
+baseline/run0/
+baseline/dense/
+# anything over ~50 MB
+*.tgz
+*.tar.gz

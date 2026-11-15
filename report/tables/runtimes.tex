@@ -1,0 +1,26 @@
+\multicolumn{9}{l}{\textit{Paper grid, $201\times75$}}\\
+\quad Paper code (Python, Numba, SciPy) & 656 & 6.06 & 0.051 & 0.429 & 13.5 & 20.0 & 1 & 1\\
+\quad CPU, fp64, exact line sweeps & 656 & 1.07 & 0.013 & 0.139 & 0.420 & 1.64 & 6 & 12\\
+\quad CPU, fp64 & 657 & 0.635 & 0.013 & 0.141 & 0.414 & 1.20 & 10 & 17\\
+\quad GPU, fp64 & 659 & 2.17 & 0.012 & 0.291 & 0.958 & 3.43 & 3 & 6\\
+\quad CPU, fp32 & 729 & 0.501 & 0.009 & 0.101 & 0.415 & 1.03 & 12 & 20\\
+\quad GPU, fp32 & 647 & 0.211 & 0.009 & 0.039 & 0.284 & 0.542 & 29 & 37\\
+\addlinespace
+\multicolumn{9}{l}{\textit{Dense grid, $500\times121$}}\\
+\quad CPU, fp64, exact line sweeps & 731 & 4.63 & 0.104 & 0.146 & 1.27 & 6.15 & -- & --\\
+\quad CPU, fp64 & 661 & 2.13 & 0.104 & 0.140 & 1.24 & 3.61 & -- & --\\
+\quad GPU, fp64 & 731 & 7.71 & 0.103 & 0.294 & 1.86 & 9.98 & -- & --\\
+\quad CPU, fp32 & 843 & 1.96 & 0.072 & 0.105 & 1.29 & 3.42 & -- & --\\
+\quad GPU, fp32 & 743 & 0.779 & 0.071 & 0.047 & 1.17 & 2.07 & -- & --\\
+\addlinespace
+\multicolumn{9}{l}{\textit{Dense grid, $1000\times121$ (continuation from $500\times121$)}}\\
+\quad CPU, fp64 & 474 & 2.73 & 0.206 & 0.148 & 2.37 & 5.46 & -- & --\\
+\quad GPU, fp64 & 475 & 9.45 & 0.205 & 0.299 & 3.47 & 13.4 & -- & --\\
+\quad CPU, fp32 & 471 & 2.16 & 0.144 & 0.112 & 2.57 & 4.98 & -- & --\\
+\quad GPU, fp32 & 438 & 0.836 & 0.139 & 0.055 & 2.10 & 3.13 & -- & --\\
+\addlinespace
+\multicolumn{9}{l}{\textit{Dense grid, $2000\times121$ (continuation from $1000\times121$)}}\\
+\quad CPU, fp64 & 648 & 9.56 & 0.416 & 0.159 & 6.78 & 16.9 & -- & --\\
+\quad GPU, fp64 & 648 & 24.6 & 0.407 & 0.309 & 6.34 & 31.7 & -- & --\\
+\quad CPU, fp32 & 445 & 4.13 & 0.284 & 0.113 & 5.18 & 9.70 & -- & --\\
+\quad GPU, fp32 & 355 & 1.43 & 0.277 & 0.083 & 3.78 & 5.57 & -- & --\\
